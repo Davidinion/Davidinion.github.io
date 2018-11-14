@@ -1,0 +1,53 @@
+.bg-red {
+  background: $red;
+}
+
+.h-100 {
+  min-height: 100%; // Fallback for browsers that don't support vh
+  min-height: 100vh;
+}
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+.header-links {
+  z-index: 2;
+}
+
+.blog-post {
+  margin: 20px 0;
+}
+
+.btn-sm {
+  padding: 0;
+}
+
+.subscribe {
+  padding-bottom: 10px;
+}
+
+.site-footer {
+  padding: 10px 0;
+}
+
+// .md breakpoint
+@media screen and (max-width:768px) {
+  .header-links {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .featured-image {
+    order: -1;
+    margin: -15px 0 15px 0;
+  }
+
+  .site-footer {
+    margin-bottom: 60px;
+  }
+}

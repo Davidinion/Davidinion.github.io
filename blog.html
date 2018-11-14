@@ -1,0 +1,218 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <title>David Lozano | Front Page</title>
+
+    <!-- Metas -->
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Icon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <!-- Content -->
+    <header class="site-header">
+      <nav class="navbar navbar-light bg-light">
+        <a href="front-page.html" class="navbar-brand">
+          <img src="logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+          <span class="navbar-brand">David Lozano</span>
+        </a><!-- Site's Name -->
+
+        <ul class="header-links nav nav-pills nav-fill bg-light">
+          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#" class="nav-link active">Blog</a></li>
+          <li class="nav-item" data-toggle="modal" data-target="#subscribeModal"><a href="#" class="nav-link">Subscribe</a></li>
+        </ul><!-- Site Links -->
+      </nav>
+    </header><!-- Site Header -->
+
+    <div class="modal fade" id="subscribeModal" role="dialog" aria-labelledby="subscribeModal" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <form>
+            <div class="modal-header">
+              <h5 class="modal-title">Subscribe to the List!</h5>
+              <button class="close" type="hidden" data-dismiss="modal" aria-label="Close">&times;</button>
+            </div>
+            
+            <div class="modal-body">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" placeholder="John Doe" class="form-control">
+              </div><!-- First Name -->
+
+              <div class="form-group">
+                <label for="email">Email Address<sup>*</sup></label>
+                <input type="email" name="email" placeholder="johndoe@email.com" class="form-control" required="true">
+                <small class="form-text text-muted">I'll never sell your email address to anyone - I promise.</small>
+              </div><!-- Email Address -->
+
+              <div class="form-group">
+                <label for="birthday">Birthday</label>
+                <input type="date" name="birthday" placeholder="johndoe@email.com" class="form-control">
+                <small class="form-text text-muted">I'll try to give you a little something on this day. :)</small>
+              </div><!-- Birthday -->
+            </div>
+
+            <div class="modal-footer">
+              <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div><!-- Subscribe Modal -->
+
+    <br>
+
+    <main role="main" class="container">
+      <div class="row">
+        <section class="featured-post col-md-12">
+          <div class="jumbotron row vertical-center">
+            <div class="col-md-7">
+              <h1 class="card-title">Featured Post Title</h1>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti praesentium dolore, eaque eligendi ea obcaecati dolores laudantium rem, ex inventore, corporis enim natus commodi sit?</p>
+              <button class="btn btn-outline-primary">Read More</button>
+            </div>
+  
+            <div class="featured-image col-md">
+              <img src="img/image.jpg" alt="">
+            </div>
+          </div>
+        </section><!-- Featured Post -->
+  
+        <section class="blog-post-list col-md-9">
+          <div class="blog-post">
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <div class="post-meta">
+              <span class="post-date">Sep 1, 2018</span>
+              |
+              <span class="reading-time">1 min read</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque suscipit molestiae quaerat labore quia fugit odio ea, ipsa dolorum, necessitatibus deserunt perspiciatis odit temporibus assumenda.</p>
+            <button class="btn btn-link btn-sm">Read More</button>
+          </div>
+          <div class="blog-post">
+            <h2>Voluptate aperiam nostrum ab veritatis.</h2>
+            <div class="post-meta">
+              <span class="post-date">Sep 2, 2018</span>
+              |
+              <span class="reading-time">2 min read</span>
+            </div>
+            <p>Enim, aperiam! Autem necessitatibus amet iste reiciendis sed! Dicta facere iusto, quam saepe esse, voluptatem atque quod adipisci amet ab aliquam tempora, ex dolor iure.</p>
+            <button class="btn btn-link btn-sm">Read More</button>
+          </div>
+          <div class="blog-post">
+            <h2>Saepe iure dolor officia consectetur.</h2>
+            <div class="post-meta">
+              <span class="post-date">Sep 3, 2018</span>
+              |
+              <span class="reading-time">3 min read</span>
+            </div>
+            <p>Tempora et ex eaque numquam quibusdam quasi neque aut excepturi placeat perspiciatis. Tempore animi, dolore praesentium, repellendus accusamus numquam nam molestias explicabo recusandae consectetur doloribus?</p>
+            <button class="btn btn-link btn-sm">Read More</button>
+          </div>
+          <div class="blog-post">
+            <h2>Tempore rerum inventore at similique.</h2>
+            <div class="post-meta">
+              <span class="post-date">Sep 4, 2018</span>
+              |
+              <span class="reading-time">4 min read</span>
+            </div>
+            <p>Id pariatur, iusto maxime laborum voluptates, sapiente eaque modi quaerat reiciendis itaque officiis accusamus neque veritatis nihil est cupiditate, porro culpa at! Obcaecati, blanditiis deleniti!</p>
+            <button class="btn btn-link btn-sm">Read More</button>
+          </div>
+          <div class="blog-post">
+            <h2>Repellat quisquam impedit rem esse!</h2>
+            <div class="post-meta">
+              <span class="post-date">Sep 5, 2018</span>
+              |
+              <span class="reading-time">5 min read</span>
+            </div>
+            <p>Consectetur adipisci ea ut, quas ex cum totam quaerat, similique architecto nesciunt recusandae eveniet facere culpa enim. Laudantium provident rerum dolorum magni quod quisquam unde?</p>
+            <button class="btn btn-link btn-sm">Read More</button>
+          </div>
+
+          <nav>
+            <ul class="pagination pagination-sm justify-content-center">
+              <li class="page-item disabled"><a href="#" class="page-link">Previous</a></li>
+              <li class="page-item active"><a href="#" class="page-link">1</a></li>
+              <li class="page-item"><a href="#" class="page-link">2</a></li>
+              <li class="page-item"><a href="#" class="page-link">3</a></li>
+              <li class="page-item"><a href="#" class="page-link">Next</a></li>
+            </ul>
+          </nav><!-- Pagination -->
+        </section><!-- Main Content -->
+          
+        <section class="sidebar col-md-3">
+          <div class="subscribe border-bottom">
+            <h2 class="card-title">Subscribe to the List!</h2>
+
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" placeholder="John Doe" class="form-control">
+              </div><!-- First Name -->
+
+              <div class="form-group">
+                <label for="email">Email Address<sup>*</sup></label>
+                <input type="email" name="email" placeholder="johndoe@email.com" class="form-control" required="true">
+                <small class="form-text text-muted">I'll never sell your email address to anyone - I promise.</small>
+              </div><!-- Email Address -->
+
+              <div class="form-group">
+                <label for="birthday">Birthday</label>
+                <input type="date" name="birthday" placeholder="johndoe@email.com" class="form-control">
+                <small class="form-text text-muted">I'll try to give you a little something on this day. :)</small>
+              </div><!-- Birthday -->
+
+              <input type="submit" class="btn btn-primary" value="Submit">
+            </form>
+          </div><!-- Subscribe -->
+
+          <br>
+
+          <div class="other-locations">
+            <h2>Other Locations</h2>
+            <small class="text-muted">A list of other places you can find me on the internet.</small>
+
+            <ul>
+              <li><a href="#">Lorem.</a></li>
+              <li><a href="#">Perferendis!</a></li>
+              <li><a href="#">Rem.</a></li>
+            </ul>
+          </div><!-- Other Locations -->
+        </section><!-- Sidebar -->
+      </div>
+    </main>
+
+    <br>
+
+    <footer class="site-footer footer font-small bg-dark">
+      <div class="container">
+        <span class="text-light">A blog for the curious mind. Creating chaos since 2017.</span>
+
+        <ul class="nav" role="navigation">
+          <li class="nav-item"><a class="nav-link" href="#">Lorem</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Quo</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- JavaScript Scripts -->
+    <script defer src="js/jquery-3.3.1.min.js"></script>
+    <script defer src="js/bootstrap.min.js"></script>
+    <script defer src="js/bootstrap.bundle.min.js"></script>
+    <script defer src="js/script.js"></script>
+  </body>
+</html>
