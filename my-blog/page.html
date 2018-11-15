@@ -1,0 +1,152 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <title>David Lozano | Front Page</title>
+
+    <!-- Metas -->
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Icon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  </head>
+
+  <body>
+    <!-- Content -->
+    <header class="site-header">
+      <nav class="navbar navbar-light bg-light">
+        <a href="front-page.html" class="navbar-brand">
+          <img src="logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+          <span class="navbar-brand">David Lozano</span>
+        </a><!-- Site's Name -->
+
+        <ul class="header-links nav nav-pills nav-fill bg-light">
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="blog.html" class="nav-link active">Blog</a></li>
+          <li class="nav-item" data-toggle="modal" data-target="#subscribeModal"><a href="#" class="nav-link">Subscribe</a></li>
+        </ul><!-- Site Links -->
+      </nav>
+    </header><!-- Site Header -->
+
+    <div class="modal fade" id="subscribeModal" role="dialog" aria-labelledby="subscribeModal" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <form>
+            <div class="modal-header">
+              <h5 class="modal-title">Subscribe to the List!</h5>
+              <button class="close" type="hidden" data-dismiss="modal" aria-label="Close">&times;</button>
+            </div>
+            
+            <div class="modal-body">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" placeholder="John Doe" class="form-control">
+              </div><!-- First Name -->
+
+              <div class="form-group">
+                <label for="email">Email Address<sup>*</sup></label>
+                <input type="email" name="email" placeholder="johndoe@email.com" class="form-control" required="true">
+                <small class="form-text text-muted">I'll never sell your email address to anyone - I promise.</small>
+              </div><!-- Email Address -->
+
+              <div class="form-group">
+                <label for="birthday">Birthday</label>
+                <input type="date" name="birthday" placeholder="johndoe@email.com" class="form-control">
+                <small class="form-text text-muted">I'll try to give you a little something on this day. :)</small>
+              </div><!-- Birthday -->
+            </div>
+
+            <div class="modal-footer">
+              <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div><!-- Subscribe Modal -->
+
+    <br>
+
+    <main role="main" class="container">
+      <article>
+        <section class="post-intro">
+          <h1 class="card-title">Featured Post Title</h1>
+          <div class="featured-image"><img src="img/image.jpg" alt=""></div>
+        </section><!-- Page Intro -->
+
+        <br>
+
+        <section class="post-content col-md-10 offset-md-1" id="post-content">
+          <aside class="table-of-contents bg-light">
+            <h4 class="card-title">Table of Contents</h4>
+
+            <nav id="table-of-contents" role="navigation" aria-label="Table of Contents">
+              <ul class="nav">
+                <li class="nav-item"><a href="#1" class="nav-link">Lorem, ipsum dolor.</a></li>
+                <li class="nav-item"><a href="#2" class="nav-link">Quisquam, blanditiis pariatur.</a></li>
+                <li class="nav-item"><a href="#3" class="nav-link">Omnis, vitae consequatur.</a></li>
+                <li class="nav-item"><a href="#4" class="nav-link">Cumque, culpa rem.</a></li>
+                <li class="nav-item"><a href="#5" class="nav-link">Consequatur, sed molestias!</a></li>
+              </ul>
+            </nav>
+          </aside><!-- Table of Contents -->
+
+          <h2 id="1">Lorem, ipsum dolor.</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, totam dignissimos, odit adipisci repellendus reprehenderit iure odio pariatur sapiente commodi dolorem neque vitae esse veritatis, id magnam suscipit non! Labore.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptate accusantium, ea facere harum eveniet non magnam enim quas consequuntur corrupti ut inventore error ab cum explicabo quod est consequatur.</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti sed doloremque laudantium, eos voluptatum corporis, nostrum consequuntur atque quam hic illo a vitae necessitatibus nam numquam asperiores placeat quod animi.</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non perspiciatis impedit distinctio iure neque necessitatibus blanditiis repudiandae quos eos sequi velit laboriosam accusantium illum repellat dolorem delectus, itaque quis doloremque.</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto quidem odio delectus eum, quos fugit perspiciatis, ipsa saepe nobis sapiente ex recusandae cumque. Et ea assumenda, obcaecati laudantium quas ratione.</p>
+          <h2 id="2">Quisquam, blanditiis pariatur.</h2>
+          <p>Delectus esse magnam obcaecati. Totam enim consequuntur beatae error? Sint ipsa, modi facere totam necessitatibus optio aliquam corrupti esse, at ad dignissimos cumque pariatur! Aperiam at sequi id porro voluptates!</p>
+          <p>Tenetur, perferendis labore? Error rem obcaecati consequuntur facere, eius veritatis reprehenderit ea odit in est aliquid neque iusto! In enim accusantium illum amet tempore et fugiat quasi quo sit deleniti!</p>
+          <p>Commodi laborum repellendus quaerat, vitae itaque deserunt dolorem at debitis dicta nemo, tempore minus eum voluptatem temporibus tenetur iure? Nam eos qui, ipsa modi reiciendis fuga illum tenetur veniam distinctio!</p>
+          <p>Repudiandae corrupti cum sunt illum suscipit a omnis molestiae ducimus delectus quisquam voluptas soluta, sit fugiat officiis accusantium, architecto mollitia, eaque voluptatum veniam voluptates enim. Blanditiis assumenda aspernatur animi asperiores?</p>
+          <p>Sed laborum ducimus alias, dolore nobis provident voluptas molestiae quis facilis officia adipisci error? Architecto, consequuntur dolores aspernatur blanditiis, sit eos corrupti, non recusandae itaque corporis voluptatem assumenda fuga temporibus.</p>
+          <h2 id="3">Omnis, vitae consequatur.</h2>
+          <p>Quas explicabo labore magnam amet dolores facilis, vero, inventore ratione officiis enim hic sed consectetur nostrum numquam eum, eius accusamus doloremque tenetur eveniet ex in natus cumque. Odio, molestiae adipisci.</p>
+          <p>Nobis odit in soluta fugiat accusantium exercitationem quaerat commodi dolore? Corrupti porro voluptatem dicta ullam optio doloremque facere, dolorum impedit architecto eos provident vitae quidem illum doloribus aperiam saepe officiis.</p>
+          <p>Nulla dolores, voluptas libero alias ipsa, sapiente ducimus, saepe quod aliquam sunt impedit incidunt corrupti provident vel omnis architecto tempora sequi illum ut eaque quae necessitatibus. Hic suscipit consectetur repudiandae.</p>
+          <p>Sint, magnam illo recusandae facilis sunt veritatis placeat obcaecati neque quod libero commodi aut voluptatem molestias, doloremque voluptates illum! Repudiandae provident maxime libero laudantium natus iure reprehenderit laborum iusto aliquam.</p>
+          <p>Sunt aspernatur inventore quibusdam sequi fugit. Accusantium reiciendis aliquid eligendi repudiandae, optio illo tempora? Est eius, atque dolores dolor ab hic nisi distinctio ea amet veniam inventore vero esse tempore.</p>
+          <h2 id="4">Cumque, culpa rem.</h2>
+          <p>Error distinctio reprehenderit excepturi. Ipsam accusantium esse cumque, facere nihil dolorum amet. Asperiores impedit ipsum doloribus, in architecto quisquam, dignissimos aliquid tempore debitis iste natus, eos quidem mollitia deserunt voluptatum.</p>
+          <p>Eos magni fugiat, quidem nesciunt quae repudiandae accusamus placeat deserunt at veritatis distinctio expedita incidunt animi obcaecati totam earum sint esse, corrupti qui? Adipisci neque est assumenda tempore quibusdam eum?</p>
+          <p>Officia eum numquam accusamus voluptatem doloribus fugiat sunt iure. Provident numquam sed cum earum vero quae, veritatis reiciendis autem consequatur in quis aperiam, odit, minima quidem ut natus voluptas sequi?</p>
+          <p>Omnis, mollitia quod cupiditate beatae recusandae optio ex aspernatur, eaque, neque laborum aut laudantium saepe! Quasi cum delectus, est qui nihil illo hic perferendis vitae? Sunt accusamus facilis consequatur nemo.</p>
+          <p>Deserunt veniam unde placeat vero quo quis, tempora minus quae reiciendis veritatis, adipisci sapiente fuga dolorum quaerat odio. Culpa, tenetur? Modi vitae corrupti maiores consequuntur enim tempora quo qui libero.</p>
+          <h2 id="5">Consequatur, sed molestias!</h2>
+          <p>Harum veritatis esse ea, distinctio recusandae velit nihil quod neque dignissimos. Dolorem pariatur possimus nulla praesentium quam quod illo voluptatibus sapiente, doloremque repellat quidem similique voluptatum eos labore atque rerum.</p>
+          <p>Odio distinctio voluptatum pariatur officiis sequi inventore enim incidunt, voluptatibus illum saepe? Perspiciatis minima magni velit ducimus, et magnam asperiores facere laborum officiis aliquid rem, accusantium deleniti, saepe sit ratione!</p>
+          <p>Laboriosam praesentium esse assumenda fuga. Delectus similique maiores ipsam maxime a, praesentium dolor, cupiditate culpa, quod dolores vero soluta? Tempora, cum suscipit! Praesentium necessitatibus quidem commodi, non veniam voluptates repudiandae?</p>
+          <p>Doloremque fugit corrupti ab mollitia, pariatur aut atque eius laboriosam qui ipsam quidem non officia provident numquam debitis maiores quaerat, quisquam eaque. In magnam sunt libero velit eos delectus incidunt?</p>
+          <p>Non libero, rem quam vitae adipisci aliquam aperiam temporibus veritatis, nisi excepturi voluptatem corporis repudiandae exercitationem. Iusto tempore possimus, veritatis, nisi repellendus itaque facere iste quasi natus recusandae non nesciunt?</p>
+        </section><!-- Main Content -->
+      </article>
+    </main>
+
+    <br>
+
+    <footer class="site-footer footer font-small bg-dark">
+      <div class="container">
+        <span class="text-light">A blog for the curious mind. Creating chaos since 2017.</span>
+
+        <ul class="footer-nav nav nav-pills" role="navigation">
+          <li class="nav-item"><a class="nav-link" href="#">Lorem</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Quo</a></li>
+        </ul><!-- Footer Navigation -->
+      </div>
+    </footer>
+      
+    <!-- JavaScript Scripts -->
+    <script defer src="js/jquery-3.3.1.min.js"></script>
+    <script defer src="js/bootstrap.min.js"></script>
+    <script defer src="js/bootstrap.bundle.min.js"></script>
+    <script defer src="js/script.js"></script>
+  </body>
+</html>

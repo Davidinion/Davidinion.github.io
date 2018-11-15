@@ -1,0 +1,123 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <title>David Lozano | Front Page</title>
+
+    <!-- Metas -->
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Icon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  </head>
+
+  <body>
+    <!-- Content -->
+    <header class="site-header">
+      <nav class="navbar navbar-light bg-light">
+        <a href="front-page.html" class="navbar-brand">
+          <img src="logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+          <span class="navbar-brand">David Lozano</span>
+        </a><!-- Site's Name -->
+
+        <ul class="header-links nav nav-pills nav-fill bg-light">
+          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="blog.html" class="nav-link active">Blog</a></li>
+          <li class="nav-item" data-toggle="modal" data-target="#subscribeModal"><a href="#" class="nav-link">Subscribe</a></li>
+        </ul><!-- Site Links -->
+      </nav>
+    </header><!-- Site Header -->
+
+    <div class="modal fade" id="subscribeModal" role="dialog" aria-labelledby="subscribeModal" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <form>
+            <div class="modal-header">
+              <h5 class="modal-title">Subscribe to the List!</h5>
+              <button class="close" type="hidden" data-dismiss="modal" aria-label="Close">&times;</button>
+            </div>
+            
+            <div class="modal-body">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" placeholder="John Doe" class="form-control">
+              </div><!-- First Name -->
+
+              <div class="form-group">
+                <label for="email">Email Address<sup>*</sup></label>
+                <input type="email" name="email" placeholder="johndoe@email.com" class="form-control" required="true">
+                <small class="form-text text-muted">I'll never sell your email address to anyone - I promise.</small>
+              </div><!-- Email Address -->
+
+              <div class="form-group">
+                <label for="birthday">Birthday</label>
+                <input type="date" name="birthday" placeholder="johndoe@email.com" class="form-control">
+                <small class="form-text text-muted">I'll try to give you a little something on this day. :)</small>
+              </div><!-- Birthday -->
+            </div>
+
+            <div class="modal-footer">
+              <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div><!-- Subscribe Modal -->
+
+    <br>
+
+    <main role="main" class="container">
+      <h2>Contact</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod ad animi ex cum architecto quis adipisci similique repellat expedita cupiditate, minus, dolore facere sunt consequuntur quos et alias voluptas? Voluptas.</p>
+      <p>Vel minus nulla consequatur voluptate, blanditiis laboriosam dolores eaque labore mollitia consequuntur pariatur numquam reprehenderit officia placeat atque distinctio ducimus cupiditate rerum odio. Reprehenderit rem culpa perspiciatis ipsa nostrum error.</p>
+      <p>Earum placeat voluptatum vel debitis quia obcaecati natus voluptate facilis, amet eos tempora fugit illum temporibus cupiditate voluptates soluta nostrum quae labore consequuntur nobis porro dignissimos. Itaque excepturi minima accusamus!</p>
+
+      <form action="">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control">
+          <small class="form-text text-muted">Don't worry. I promise I won't use this for anything except to reply back to you.</small>
+        </div>
+        
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea name="message" rows="10" class="form-control"></textarea>
+        </div>
+
+        <div class="form-group">
+          <input type="submit" value="Submit" class="btn btn-primary">
+        </div>
+      </form>
+    </main>
+
+    <br>
+
+    <footer class="site-footer footer font-small bg-dark">
+      <div class="container">
+        <span class="text-light">A blog for the curious mind. Creating chaos since 2017.</span>
+
+        <ul class="footer-nav nav nav-pills" role="navigation">
+          <li class="nav-item"><a class="nav-link" href="#">Lorem</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Quo</a></li>
+        </ul><!-- Footer Navigation -->
+      </div>
+    </footer>
+
+    <!-- JavaScript Scripts -->
+    <script defer src="js/jquery-3.3.1.min.js"></script>
+    <script defer src="js/bootstrap.min.js"></script>
+    <script defer src="js/bootstrap.bundle.min.js"></script>
+    <script defer src="js/script.js"></script>
+  </body>
+</html>

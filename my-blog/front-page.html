@@ -19,31 +19,63 @@
     <!-- Content -->
     <div class="container-fluid vertical-center h-100">
       <div class="row vertical-center">
-        <div class="col-md"></div>
-
-        <div class="col-md-5">
+        <div class="col-md-5 offset-md-1">
           <h1>Hello! Welcome to the site</h1>
           <p>I am an aspiring engineer who loves to mine data in my free time. As an average debater, history buff, Wikipedia addict, and language lover, you can call me a certified nerd. This site is proof of that.</p>
         </div><!-- Welcome Section -->
-
-        <div class="col-md"></div>
 
         <div class="col-md-5">
           <nav>
             <h2>How may I help you?</h2>
             <ul class="nav nav-pills flex-column">
-              <li class="nav-item"><a href="/blog.html" class="nav-link active"><strong>I want to see the blog</strong></a></li>
-              <li class="nav-item"><a href="#" class="nav-link">I want to contact David</a></li>
-              <li class="nav-item"><a href="#" class="nav-link">I want to see David's side projects</a></li>
-              <li class="nav-item"><a href="#" class="nav-link">I want to sign up for the mailing list</a></li>
-              <li class="nav-item"><a href="#" class="nav-link">I want to see the archive</a></li>
+              <li class="nav-item"><a href="blog.html" class="nav-link active"><strong>I want to see the blog</strong></a></li>
+              <li class="nav-item"><a href="contact.html" class="nav-link">I want to contact David</a></li>
+              <li class="nav-item"><a href="projects.html" class="nav-link">I want to see David's side projects</a></li>
+              <li class="nav-item" data-toggle="modal" data-target="#subscribeModal"><a href="#" class="nav-link">I want to sign up for the mailing list</a></li>
+              <li class="nav-item"><a href="archive.html" class="nav-link">I want to see the archive</a></li>
             </ul>
           </nav>
         </div><!-- Navigation Links -->
-
-        <div class="col-md"></div>
       </div>
-    </div>
+    </div><!-- Content -->
+
+    <!-- Subscribe Modal -->
+    <div class="modal fade" id="subscribeModal" role="dialog" aria-labelledby="subscribeModal" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <form>
+            <div class="modal-header">
+              <h5 class="modal-title">Subscribe to the List!</h5>
+              <button class="close" type="hidden" data-dismiss="modal" aria-label="Close">&times;</button>
+            </div>
+            
+            <div class="modal-body">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" placeholder="John Doe" class="form-control">
+              </div><!-- First Name -->
+
+              <div class="form-group">
+                <label for="email">Email Address<sup>*</sup></label>
+                <input type="email" name="email" placeholder="johndoe@email.com" class="form-control" required="true">
+                <small class="form-text text-muted">I'll never sell your email address to anyone - I promise.</small>
+              </div><!-- Email Address -->
+
+              <div class="form-group">
+                <label for="birthday">Birthday</label>
+                <input type="date" name="birthday" placeholder="johndoe@email.com" class="form-control">
+                <small class="form-text text-muted">I'll try to give you a little something on this day. :)</small>
+              </div><!-- Birthday -->
+            </div>
+
+            <div class="modal-footer">
+              <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div><!-- Subscribe Modal -->
 
     <!-- JavaScript Scripts -->
     <script defer src="js/jquery-3.3.1.min.js"></script>
